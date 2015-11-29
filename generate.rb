@@ -44,4 +44,4 @@ end
 
 
 
-File.write 'types.json', json(types)
+File.write 'data/types.json', json(types)

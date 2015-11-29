@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Dietary Calories"
+  },
+  {
+    "id": 2,
+    "name": "Total Fat"
+  },
+  {
+    "id": 3,
+    "name": "Saturated Fat",
+    "parent_id": 2
+  },
+  {
+    "id": 4,
+    "name": "Monounsaturated Fat",
+    "parent_id": 2
+  },
+  {
+    "id": 5,
+    "name": "Polyunsaturated Fat",
+    "parent_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Carbohydrates"
+  },
+  {
+    "id": 7,
+    "name": "Fiber",
+    "parent_id": 6
+  },
+  {
+    "id": 8,
+    "name": "Sugar",
+    "parent_id": 6
+  },
+  {
+    "id": 9,
+    "name": "Protein"
+  },
+  {
+    "id": 10,
+    "name": "Vitamins"
+  },
+  {
+    "id": 11,
+    "name": "Vitamin A",
+    "parent_id": 10
+  },
+  {
+    "id": 12,
+    "name": "Vitamin B12",
+    "parent_id": 10
+  },
+  {
+    "id": 13,
+    "name": "Vitamin B6",
+    "parent_id": 10
+  },
+  {
+    "id": 14,
+    "name": "Vitamin C",
+    "parent_id": 10
+  },
+  {
+    "id": 15,
+    "name": "Vitamin D",
+    "parent_id": 10
+  },
+  {
+    "id": 16,
+    "name": "Vitamin E",
+    "parent_id": 10
+  },
+  {
+    "id": 17,
+    "name": "Vitamin K",
+    "parent_id": 10
+  },
+  {
+    "id": 18,
+    "name": "Biotin",
+    "parent_id": 10
+  },
+  {
+    "id": 19,
+    "name": "Folate",
+    "parent_id": 10
+  },
+  {
+    "id": 20,
+    "name": "Niacin",
+    "parent_id": 10
+  },
+  {
+    "id": 21,
+    "name": "Pantothenic Acid",
+    "parent_id": 10
+  },
+  {
+    "id": 22,
+    "name": "Riboflavin",
+    "parent_id": 10
+  },
+  {
+    "id": 23,
+    "name": "Thiamin",
+    "parent_id": 10
+  },
+  {
+    "id": 24,
+    "name": "Minerals"
+  },
+  {
+    "id": 25,
+    "name": "Calcium",
+    "parent_id": 24
+  },
+  {
+    "id": 26,
+    "name": "Chloride",
+    "parent_id": 24
+  },
+  {
+    "id": 27,
+    "name": "Chromium",
+    "parent_id": 24
+  },
+  {
+    "id": 28,
+    "name": "Copper",
+    "parent_id": 24
+  },
+  {
+    "id": 29,
+    "name": "Iron",
+    "parent_id": 24
+  },
+  {
+    "id": 30,
+    "name": "Iodine",
+    "parent_id": 24
+  },
+  {
+    "id": 31,
+    "name": "Magnesium",
+    "parent_id": 24
+  },
+  {
+    "id": 32,
+    "name": "Manganese",
+    "parent_id": 24
+  },
+  {
+    "id": 33,
+    "name": "Molybdenum",
+    "parent_id": 24
+  },
+  {
+    "id": 34,
+    "name": "Phosphorus",
+    "parent_id": 24
+  },
+  {
+    "id": 35,
+    "name": "Potassium",
+    "parent_id": 24
+  },
+  {
+    "id": 36,
+    "name": "Selenium",
+    "parent_id": 24
+  },
+  {
+    "id": 37,
+    "name": "Sodium",
+    "parent_id": 24
+  },
+  {
+    "id": 38,
+    "name": "Zinc",
+    "parent_id": 24
+  },
+  {
+    "id": 39,
+    "name": "Caffeine"
+  },
+  {
+    "id": 40,
+    "name": "Dietary Cholesterol"
+  }
+]
