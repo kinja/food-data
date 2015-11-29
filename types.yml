@@ -4,6 +4,7 @@
 
 dietary_calories:
   name: Dietary Calories # wartość energetyczna
+  name_pl: Kalorie
 
 
 
@@ -13,17 +14,21 @@ dietary_calories:
 
 total_fat:
   name: Total Fat # tłuszcz łącznie
+  name_pl: Tłuszcz (łącznie)
 
 saturated_fat:
   name: Saturated Fat # tłuszcz nasycony
+  name_pl: Tłuszcz nasycony
   parent: total_fat
 
 monounsaturated_fat:
-  name: Monounsaturated Fat # tłuszcz jednonasycy
+  name: Monounsaturated Fat # tłuszcz jednonienasycony
+  name_pl: Tłuszcz jednonienasycony
   parent: total_fat
 
 polyunsaturated_fat:
-    name: Polyunsaturated Fat # tłuszcz wielonasycy
+    name: Polyunsaturated Fat # tłuszcz wielonasycony
+    name_pl: Tłuszcz wielonasycony
     parent: total_fat
 
 
@@ -34,13 +39,16 @@ polyunsaturated_fat:
 
 carbohydrates: # węglowodany
   name: Carbohydrates
+  name_pl: Węglodowodany
 
 fiber:
   name: Fiber # błonnik
+  name_pl: Błonnik
   parent: carbohydrates
 
 sugar:
     name: Sugar # cukier
+    name_pl: Cukier
     parent: carbohydrates
 
 
@@ -51,6 +59,7 @@ sugar:
 
 protein:
   name: Protein
+  name_pl: Białko
 
 
 
@@ -60,35 +69,43 @@ protein:
 
 vitamins:
   name: Vitamins
+  name_pl: Witaminy
 
 <% [ 'A', 'B12', 'B6', 'C', 'D', 'E', 'K' ].each do |v| %>
 vitamin_<%= v.downcase%>:
   name: Vitamin <%= v %>
+  name_pl: Witamina <%= v %>
   parent: vitamins
 <% end %>
 
 biotin:
   name: Biotin # biotyna/B7,H
+  name_pl: Biotyna
   parent: vitamins
 
 folate:
   name: Folate # kwas foliowy/B9,B11,M
+  name_pl: Kwas foliowy
   parent: vitamins
 
 niacyn:
   name: Niacin # niacyna/B3
+  name_pl: Niacyna
   parent: vitamins
 
 pantothenic_acid:
   name: Pantothenic Acid # kwas pantotenowy/~B5
+  name_pl: Kwas pantotenowy
   parent: vitamins
 
 riboflavin:
   name: Riboflavin # rybifawina/B2
+  name_pl: Ryboflawina
   parent: vitamins
 
 thiamin:
   name: Thiamin # tiamina/B1
+  name_pl: Tiamina
   parent: vitamins
 
 
@@ -99,61 +116,76 @@ thiamin:
 
 minerals:
   name: Minerals
+  name_pl: Minerały
 
 calcium:
   name: Calcium # wapń
+  name_pl: Wapń
   parent: minerals
 
 chloride:
   name: Chloride # chlor
+  name_pl: Chlorek
   parent: minerals
 
 chromium:
   name: Chromium # chrom
+  name_pl: Chrom
   parent: minerals
 
 copper:
   name: Copper # miedź
+  name_pl: Miedź
   parent: minerals
 
 iron:
   name: Iron # żelazo
+  name_pl: Żelazo
   parent: minerals
 
 iodine:
   name: Iodine # jod
+  name_pl: Jod
   parent: minerals
 
 magnesium:
   name: Magnesium # magnez
+  name_pl: Magnez
   parent: minerals
 
 manganese:
   name: Manganese # mangan
+  name_pl: Mangan
   parent: minerals
 
 molybdenum:
   name: Molybdenum # molibden
+  name_pl: Molibden
   parent: minerals
 
 phosphorus:
   name: Phosphorus # fosfor
+  name_pl: Fosfor
   parent: minerals
 
 potassium:
   name: Potassium # potas
+  name_pl: Potas
   parent: minerals
 
 selenium:
   name: Selenium # selen
+  name_pl: Selen
   parent: minerals
 
 sodium:
   name: Sodium # sód
+  name_pl: Sód
   parent: minerals
 
 zinc:
   name: Zinc # cynk
+  name_pl: Cynk
   parent: minerals
 
 
@@ -162,10 +194,21 @@ zinc:
 # Other
 #
 
+other:
+  name: Other
+  name_pl: Inne
+
 caffeine:
   name: Caffeine
+  name_pl: Kofeina
+  parent: other
 
 dietary_cholesterol:
   name: Dietary Cholesterol
+  name_pl: Cholesterol
+  parent: other
 
-# fluor
+water:
+  name: Water
+  name_pl: Woda
+  parent: other

@@ -1,194 +1,205 @@
 [
   {
     "id": 1,
-    "name": "Dietary Calories"
+    "name": "Kalorie"
   },
   {
     "id": 2,
-    "name": "Total Fat"
+    "name": "Tłuszcz (łącznie)"
   },
   {
     "id": 3,
-    "name": "Saturated Fat",
+    "name": "Tłuszcz nasycony",
     "parent_id": 2
   },
   {
     "id": 4,
-    "name": "Monounsaturated Fat",
+    "name": "Tłuszcz jednonienasycony",
     "parent_id": 2
   },
   {
     "id": 5,
-    "name": "Polyunsaturated Fat",
+    "name": "Tłuszcz wielonasycony",
     "parent_id": 2
   },
   {
     "id": 6,
-    "name": "Carbohydrates"
+    "name": "Węglodowodany"
   },
   {
     "id": 7,
-    "name": "Fiber",
+    "name": "Błonnik",
     "parent_id": 6
   },
   {
     "id": 8,
-    "name": "Sugar",
+    "name": "Cukier",
     "parent_id": 6
   },
   {
     "id": 9,
-    "name": "Protein"
+    "name": "Białko"
   },
   {
     "id": 10,
-    "name": "Vitamins"
+    "name": "Witaminy"
   },
   {
     "id": 11,
-    "name": "Vitamin A",
+    "name": "Witamina A",
     "parent_id": 10
   },
   {
     "id": 12,
-    "name": "Vitamin B12",
+    "name": "Witamina B12",
     "parent_id": 10
   },
   {
     "id": 13,
-    "name": "Vitamin B6",
+    "name": "Witamina B6",
     "parent_id": 10
   },
   {
     "id": 14,
-    "name": "Vitamin C",
+    "name": "Witamina C",
     "parent_id": 10
   },
   {
     "id": 15,
-    "name": "Vitamin D",
+    "name": "Witamina D",
     "parent_id": 10
   },
   {
     "id": 16,
-    "name": "Vitamin E",
+    "name": "Witamina E",
     "parent_id": 10
   },
   {
     "id": 17,
-    "name": "Vitamin K",
+    "name": "Witamina K",
     "parent_id": 10
   },
   {
     "id": 18,
-    "name": "Biotin",
+    "name": "Biotyna",
     "parent_id": 10
   },
   {
     "id": 19,
-    "name": "Folate",
+    "name": "Kwas foliowy",
     "parent_id": 10
   },
   {
     "id": 20,
-    "name": "Niacin",
+    "name": "Niacyna",
     "parent_id": 10
   },
   {
     "id": 21,
-    "name": "Pantothenic Acid",
+    "name": "Kwas pantotenowy",
     "parent_id": 10
   },
   {
     "id": 22,
-    "name": "Riboflavin",
+    "name": "Ryboflawina",
     "parent_id": 10
   },
   {
     "id": 23,
-    "name": "Thiamin",
+    "name": "Tiamina",
     "parent_id": 10
   },
   {
     "id": 24,
-    "name": "Minerals"
+    "name": "Minerały"
   },
   {
     "id": 25,
-    "name": "Calcium",
+    "name": "Wapń",
     "parent_id": 24
   },
   {
     "id": 26,
-    "name": "Chloride",
+    "name": "Chlorek",
     "parent_id": 24
   },
   {
     "id": 27,
-    "name": "Chromium",
+    "name": "Chrom",
     "parent_id": 24
   },
   {
     "id": 28,
-    "name": "Copper",
+    "name": "Miedź",
     "parent_id": 24
   },
   {
     "id": 29,
-    "name": "Iron",
+    "name": "Żelazo",
     "parent_id": 24
   },
   {
     "id": 30,
-    "name": "Iodine",
+    "name": "Jod",
     "parent_id": 24
   },
   {
     "id": 31,
-    "name": "Magnesium",
+    "name": "Magnez",
     "parent_id": 24
   },
   {
     "id": 32,
-    "name": "Manganese",
+    "name": "Mangan",
     "parent_id": 24
   },
   {
     "id": 33,
-    "name": "Molybdenum",
+    "name": "Molibden",
     "parent_id": 24
   },
   {
     "id": 34,
-    "name": "Phosphorus",
+    "name": "Fosfor",
     "parent_id": 24
   },
   {
     "id": 35,
-    "name": "Potassium",
+    "name": "Potas",
     "parent_id": 24
   },
   {
     "id": 36,
-    "name": "Selenium",
+    "name": "Selen",
     "parent_id": 24
   },
   {
     "id": 37,
-    "name": "Sodium",
+    "name": "Sód",
     "parent_id": 24
   },
   {
     "id": 38,
-    "name": "Zinc",
+    "name": "Cynk",
     "parent_id": 24
   },
   {
     "id": 39,
-    "name": "Caffeine"
+    "name": "Inne"
   },
   {
     "id": 40,
-    "name": "Dietary Cholesterol"
+    "name": "Kofeina",
+    "parent_id": 39
+  },
+  {
+    "id": 41,
+    "name": "Cholesterol",
+    "parent_id": 39
+  },
+  {
+    "id": 42,
+    "name": "Woda",
+    "parent_id": 39
   }
 ]

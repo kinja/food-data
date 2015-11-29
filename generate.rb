@@ -20,7 +20,7 @@ def types
     key, data = entry
 
     id = index+1
-    name = data['name']
+    name = data['name_pl']
 
     parent_key = data['parent']
 
