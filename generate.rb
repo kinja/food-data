@@ -36,9 +36,9 @@ def types
 end
 
 def manufacturers
-  @files ||= Dir.glob 'manufacturers/*.yml'
+  files = Dir.glob 'manufacturers/*.yml'
 
-  @manufacturers ||= @files.map do |file|
+  @manufacturers = files.map do |file|
     name = "manufacturer_" + File.basename(file, '.yml')
     data = yaml file
 
@@ -47,11 +47,16 @@ def manufacturers
 end
 
 def products
-  @files ||= Dir.glob 'products/*.yml'
+  files = Dir.glob 'products/*.yml'
 
-  @products ||= @files.map do |file|
+  @products ||= files.map do |file|
     name = "product_" + File.basename(file, '.yml')
     data = yaml file
+
+    if data.key? :manufacturer
+      mkey = data.delete :manufacturer
+      data[:manufacturer_id] = manufacturers.keys.index(mkey.to_sym) + 1
+    end
 
     [ name.to_sym, data ]
   end.to_h
@@ -88,5 +93,17 @@ def manufacturers_data
   end
 end
 
+def products_data
+  products.map.each_with_index do |entry, index|
+    key, data = entry
+
+    {
+      id: index+1,
+
+    }.merge(data)
+  end
+end
+
 File.write 'generated/types.json', json(types_data)
 File.write 'generated/manufacturers.json', json(manufacturers_data)
+File.write 'generated/products.json', json(products_data)
