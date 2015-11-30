@@ -1,0 +1,25 @@
+name: Ketchup pikantny
+brand: Pudliszki
+ean: 5 900783 000387
+mass: 205g
+manufacturer: manufacturer_pudliszki
+ingredients:
+  - pomidory (192g na 100g ketchupu)
+  - cukier
+  - sól
+  - skrobia modyfikowana
+  - aromaty naturalne (zawierają *seler*)
+  - przyprawy
+  - zioła
+nutritions:
+  per: 100g
+  energy: 594kJ / 140kcal
+  fat:
+    total: 0.1g
+    saturated: <0.1g
+  carbohydrates:
+    total: 33g
+    sugar: 29g
+  fibre: 0.9g
+  protein: 1.3g
+  sodium: 3.1g

@@ -1,0 +1,28 @@
+name: Spaghetti Nr 4
+brand: Lubella
+ean: 5 900049 003107
+mass: 500g
+manufacturer: manufacturer_lubella
+ingredients:
+  - mąka makaronowa *przenna*
+  - ?jaja
+  - +zawartość soli wynika wyłącznie z obecności naturalnie występującego sodu
+nutritions:
+  per: 100g
+  energy: 1487kJ / 351kcal
+  fat:
+    total: 1.4g
+    saturated: 0.4g
+  carbohydrates:
+    total: 70g
+    sugar: 4.2g
+    fibre: 3.0g
+    protein: 13g
+    sodium: 0.03g
+preparing:
+  Zagotować wodę, 1L na 100g makaronu.
+  Posolić według uznania.
+  Do gotującej się wody wsypać porcję Makaronu Lubella.
+  Gotować 7-10 minut.
+  Od czasu do czasu zamieszać.
+  Ugotowany makaron odcedzić.
