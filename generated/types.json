@@ -1,186 +1,224 @@
 [
   {
     "id": 1,
-    "name": "Wartość energetyczna"
+    "name": "Wartość energetyczna",
+    "unit": "Cal"
   },
   {
     "id": 2,
-    "name": "Tłuszcz (łącznie)"
+    "name": "Tłuszcz (łącznie)",
+    "unit": "g"
   },
   {
     "id": 3,
     "name": "Tłuszcz nasycony",
+    "unit": "g",
     "parent_id": 2
   },
   {
     "id": 4,
     "name": "Tłuszcz jednonienasycony",
+    "unit": "g",
     "parent_id": 2
   },
   {
     "id": 5,
     "name": "Tłuszcz wielonasycony",
+    "unit": "g",
     "parent_id": 2
   },
   {
     "id": 6,
-    "name": "Węglodowodany"
+    "name": "Węglodowodany",
+    "unit": "g"
   },
   {
     "id": 7,
     "name": "Błonnik",
+    "unit": "g",
     "parent_id": 6
   },
   {
     "id": 8,
     "name": "Cukier",
+    "unit": "g",
     "parent_id": 6
   },
   {
     "id": 9,
-    "name": "Białko"
+    "name": "Białko",
+    "unit": "g"
   },
   {
     "id": 10,
-    "name": "Witaminy"
+    "name": "Witaminy",
+    "unit": "mcg"
   },
   {
     "id": 11,
     "name": "Witamina A",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 12,
     "name": "Witamina B12",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 13,
     "name": "Witamina B6",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 14,
     "name": "Witamina C",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 15,
     "name": "Witamina D",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 16,
     "name": "Witamina E",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 17,
     "name": "Witamina K",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 18,
     "name": "Biotyna",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 19,
     "name": "Kwas foliowy",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 20,
     "name": "Niacyna",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 21,
     "name": "Kwas pantotenowy",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 22,
     "name": "Ryboflawina",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 23,
     "name": "Tiamina",
+    "unit": "mcg",
     "parent_id": 10
   },
   {
     "id": 24,
-    "name": "Minerały"
+    "name": "Minerały",
+    "unit": "mcg"
   },
   {
     "id": 25,
     "name": "Wapń",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 26,
     "name": "Chlorek",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 27,
     "name": "Chrom",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 28,
     "name": "Miedź",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 29,
     "name": "Żelazo",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 30,
     "name": "Jod",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 31,
     "name": "Magnez",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 32,
     "name": "Mangan",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 33,
     "name": "Molibden",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 34,
     "name": "Fosfor",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 35,
     "name": "Potas",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 36,
     "name": "Selen",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 37,
     "name": "Sód",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
     "id": 38,
     "name": "Cynk",
+    "unit": "mcg",
     "parent_id": 24
   },
   {
@@ -190,16 +228,19 @@
   {
     "id": 40,
     "name": "Kofeina",
+    "unit": "mg",
     "parent_id": 39
   },
   {
     "id": 41,
     "name": "Cholesterol",
+    "unit": "mg",
     "parent_id": 39
   },
   {
     "id": 42,
     "name": "Woda",
+    "unit": "mL",
     "parent_id": 39
   }
 ]

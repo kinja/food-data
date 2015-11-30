@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Lubella Sp. z o.o",
+    "address": "ul. Wrotkowska 1, 20-469 Lublin",
+    "web": "www.lubella.pl"
+  },
+  {
+    "id": 2,
+    "name": "Pudliszki Sp. z o.o",
+    "address": "Pudliszki, ul. Fabryszna 7, 63-840 Krobia",
+    "web": "www.pudliszki.pl"
+  }
+]
