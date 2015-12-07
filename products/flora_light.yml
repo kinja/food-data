@@ -1,0 +1,36 @@
+name: Flora light
+brand: Flora
+mass: 400g
+portion: 10g
+ean: 8 711200 546046
+ingredients:
+  - woda
+  - oleje roślinne (słonecznikowy, lniany, palmowy, rzepakowy)
+  - sól (0.4%)
+  - mono- i diglicerydy kwasów tłuszczowych (emulgator)
+  - aromat
+  - kwas cytrynowy (regulator kwasowości)
+  - karoteny(barwnik)
+  - witaminy A i D
+nutritions:
+  per: 100g
+  energy: 1100kJ / 270kcal
+  fat:
+    total: 30g
+    saturated: 6g
+    monounsaturated: 8g
+    polyunsaturated: 16g
+  carbohydrates:
+    total: <0.5g
+    sugar: <0.5g
+  protein: <0.5g
+  sodium: 0.42g
+  vitamin_a: 800ug
+  vitamin_d: 7.5ug
+  vitamin_e: 10mg
+  omega_3: 3.2g
+  omega_6: 13g
+description:
+  Tłuszcz roślinny do smarowania 30%
+warnings:
+  Przechowywać w temperaturze od 2 do 10 stopni.

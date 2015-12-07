@@ -1,0 +1,47 @@
+name: MultiVita
+brand: Rama
+mass: 405g
+portion: 10g
+ean: 8 712100 338649
+ingredients:
+  - woda
+  - oleje roślinne (słonecznikowy, palmowy, rzepakowy, lniany)
+  - skrobia modyfikowana
+  - "*maślanka* w proszku"
+  - emulgatory (mono- i diglicerydy kwasów tłuszczowych, polirycynooleinian poligricerolu, lecytyny),
+  - sól (0.3%)
+  - sorbinian potasu (substancja konserwująca)
+  - kwas cytrynowy
+  - naturalny aromat
+  - witaminy A, B1 (tiamina), B2 (ryboflawina), B6, B12, D
+  - karoteny (barwnik)
+nutritions:
+  per: 100g
+  energy: 1480kJ / 356kcal
+  fat:
+    total: 39g
+    saturated: 11g
+    monounsaturated: 13g
+    polyunsaturated: 15g
+  carbohydrates:
+    total: 1.7g
+    sugar: <0.5g
+  protein: <0.5g
+  sodium: 0.33g
+  vitamin_a: 800ug
+  vitamin_d: 7.5ug
+  vitamin_e: 9.6mg
+  vitamin_b1: 1.1mg
+  vitamin_b2: 1.4mg
+  vitamin_b6: 1.4mg
+  vitamin_b12: 2.5ug
+  omega_3: 3.2g
+  omega_6: 12g
+description:
+  Margaryna półtłusta z dodatkiem witamin.
+  Zawartość tłuszczu 39%.
+warnings:
+  Rama MultiVita zawiera witaminy A, D, E, B1, B2, B6, B13.
+  Zgodnie z prawem do tego typu produktów obowiązkowo dodawane są witaminy A i D.
+  Spożywaj codziennie 20g (2x10g) Ramy MultiVita.
+  Przechowywać w lodówce

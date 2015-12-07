@@ -1,0 +1,30 @@
+name: Musztarda Sarepska Ostra
+brand: Kamis
+ean: 5 900084 229395
+mass: 185g
+manufacturer: manufacturer_mccormick
+ingredients:
+  - woda
+  - "*gorczyca* biała i czarna"
+  - ocet spirytusowy
+  - cukier
+  - sól
+  - przyprawy
+  - estragon
+  - barwnik kurkumina
+nutritions:
+  per: 100g
+  energy: 388kJ / 93kcal
+  fat:
+    total: 4.0g
+    saturated: 0.2g
+  carbohydrates:
+    total: 7.9g
+    sugar: 7.7g
+  protein: 4.4g
+  sodium: 2.9g
+description:
+  Musztarda o tradycyjnym, umiarkowanie ostrym smaku. Niezastąpiona do dań mięsnych, wędlin, serów i sosów.
+warnings:
+  Zabezpieczyć przed bezpośrednim działaniem promieni słonecznych.
+  Po otwarciu przechowywać w lodowce.

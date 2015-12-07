@@ -1,0 +1,23 @@
+name: Masło Osełkowe extra
+brand: Mleczna Dolina
+mass: 375g
+portion: 10g
+ean: 5 900512 230177
+description:
+  Masło osełkowe extra. Zawartość tłuszczu 82%
+manufacturer: manufacturer_mlekowita
+produced_for: manufacturer_jeronimo_martins
+warnings:
+  Przechowywać w temperaturze od 1 do 10 stopni
+  Zawartość soli wynika z naturalnie występującego sodu
+nutritions:
+  per: 100g
+  energy: 3068kJ / 746kcal
+  fat:
+    total: 82g
+    saturated: 54g
+  carbohydrates:
+    total: 1g
+    sugar: 1g
+  protein: 1g
+  sodium: 0.2g

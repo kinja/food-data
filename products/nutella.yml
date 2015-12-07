@@ -1,0 +1,28 @@
+name: Nutella
+brand: Nutella
+ean: 8017 7173
+mass: 350g
+portion: 15g
+manufacturer: manufacturer_ferrero
+ingredients:
+  - cukier
+  - olej palmowy
+  - "*orzechy laskowe* (13%)"
+  - kakao w proszku o obniżonej zawartości tłuszczu (7.4%)
+  - "*mleko* odtłuszczone w proszku (6.6%)"
+  - "*serwatka* w proszku"
+  - emulgator lecytyny (soja)
+  - wanilla
+nutritions:
+  per: 100g
+  energy: 2278kJ / 546kcal
+  fat:
+    total: 31.6g
+    saturated: 11g
+  carbohydrates:
+    total: 57.6g
+    sugar: 56.8g
+  protein: 6g
+  sodium: 0.114g
+description:
+  Krem do smarowania z orzechami laskowymi.
