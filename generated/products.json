@@ -1,6 +1,47 @@
 [
   {
     "id": 1,
+    "name": "Flora light",
+    "brand": "Flora",
+    "mass": "400g",
+    "portion": "10g",
+    "ean": "8 711200 546046",
+    "ingredients": [
+      "woda",
+      "oleje roślinne (słonecznikowy, lniany, palmowy, rzepakowy)",
+      "sól (0.4%)",
+      "mono- i diglicerydy kwasów tłuszczowych (emulgator)",
+      "aromat",
+      "kwas cytrynowy (regulator kwasowości)",
+      "karoteny(barwnik)",
+      "witaminy A i D"
+    ],
+    "nutritions": {
+      "per": "100g",
+      "energy": "1100kJ / 270kcal",
+      "fat": {
+        "total": "30g",
+        "saturated": "6g",
+        "monounsaturated": "8g",
+        "polyunsaturated": "16g"
+      },
+      "carbohydrates": {
+        "total": "<0.5g",
+        "sugar": "<0.5g"
+      },
+      "protein": "<0.5g",
+      "sodium": "0.42g",
+      "vitamin_a": "800ug",
+      "vitamin_d": "7.5ug",
+      "vitamin_e": "10mg",
+      "omega_3": "3.2g",
+      "omega_6": "13g"
+    },
+    "description": "Tłuszcz roślinny do smarowania 30%",
+    "warnings": "Przechowywać w temperaturze od 2 do 10 stopni."
+  },
+  {
+    "id": 2,
     "name": "Ketchup pikantny",
     "brand": "Pudliszki",
     "ean": "5 900783 000387",
@@ -25,22 +66,20 @@
         "total": "33g",
         "sugar": "29g"
       },
-      "fibre": "0.9g",
       "protein": "1.3g",
+      "fibre": "0.9g",
       "sodium": "3.1g"
     },
-    "manufacturer_id": 2
+    "manufacturer_id": 7
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Spaghetti Nr 4",
     "brand": "Lubella",
     "ean": "5 900049 003107",
     "mass": "500g",
     "ingredients": [
-      "mąka makaronowa *przenna*",
-      "?jaja",
-      "+zawartość soli wynika wyłącznie z obecności naturalnie występującego sodu"
+      "mąka makaronowa *przenna*"
     ],
     "nutritions": {
       "per": "100g",
@@ -51,13 +90,189 @@
       },
       "carbohydrates": {
         "total": "70g",
-        "sugar": "4.2g",
-        "fibre": "3.0g",
-        "protein": "13g",
-        "sodium": "0.03g"
-      }
+        "sugar": "4.2g"
+      },
+      "protein": "13g",
+      "fibre": "3.0g",
+      "sodium": "0.03g"
     },
-    "preparing": "Zagotować wodę, 1L na 100g makaronu. Posolić według uznania. Do gotującej się wody wsypać porcję Makaronu Lubella. Gotować 7-10 minut. Od czasu do czasu zamieszać. Ugotowany makaron odcedzić.",
+    "preparing": "Zagotować wodę, 1L na 100g makaronu. Posolić według uznania. Do gotującej się wody wsypać porcję Makaronu Lubella. Gotować od 7 do 10 minut. Od czasu do czasu zamieszać. Ugotowany makaron odcedzić.",
+    "warnings": "Zawartość soli wynika wyłącznie z obecności naturalnie występującego sodu. Produkt może zawierać jaja.",
+    "manufacturer_id": 3
+  },
+  {
+    "id": 4,
+    "name": "Masło Osełkowe extra",
+    "brand": "Mleczna Dolina",
+    "mass": "375g",
+    "portion": "10g",
+    "ean": "5 900512 230177",
+    "description": "Masło osełkowe extra. Zawartość tłuszczu 82%",
+    "produced_for": "manufacturer_jeronimo_martins",
+    "warnings": "Przechowywać w temperaturze od 1 do 10 stopni Zawartość soli wynika z naturalnie występującego sodu",
+    "nutritions": {
+      "per": "100g",
+      "energy": "3068kJ / 746kcal",
+      "fat": {
+        "total": "82g",
+        "saturated": "54g"
+      },
+      "carbohydrates": {
+        "total": "1g",
+        "sugar": "1g"
+      },
+      "protein": "1g",
+      "sodium": "0.2g"
+    },
+    "manufacturer_id": 5
+  },
+  {
+    "id": 5,
+    "name": "Musztarda Sarepska Ostra",
+    "brand": "Kamis",
+    "ean": "5 900084 229395",
+    "mass": "185g",
+    "ingredients": [
+      "woda",
+      "*gorczyca* biała i czarna",
+      "ocet spirytusowy",
+      "cukier",
+      "sól",
+      "przyprawy",
+      "estragon",
+      "barwnik kurkumina"
+    ],
+    "nutritions": {
+      "per": "100g",
+      "energy": "388kJ / 93kcal",
+      "fat": {
+        "total": "4.0g",
+        "saturated": "0.2g"
+      },
+      "carbohydrates": {
+        "total": "7.9g",
+        "sugar": "7.7g"
+      },
+      "protein": "4.4g",
+      "sodium": "2.9g"
+    },
+    "description": "Musztarda o tradycyjnym, umiarkowanie ostrym smaku. Niezastąpiona do dań mięsnych, wędlin, serów i sosów.",
+    "warnings": "Zabezpieczyć przed bezpośrednim działaniem promieni słonecznych. Po otwarciu przechowywać w lodowce.",
+    "manufacturer_id": 4
+  },
+  {
+    "id": 6,
+    "name": "Tymbark Pomarańcza Brzoskwinia",
+    "brand": "Tymbark",
+    "ean": "5 900334 000477",
+    "mass": "500ml",
+    "distributor": "manufacturer_mws",
+    "ingredients": [
+      "woda",
+      "sok pomarańczowy z zagęszczonego soku (19%)",
+      "syrop glukozowo-fruktozowy (G) lub/i cukier (D)",
+      "sok brzoskwiniowy z zagęszczonego soku (1%)",
+      "koncentrat cytrynowy",
+      "aromaty",
+      "przeciwutleniacz - kwas askorbinowy",
+      "barwnik - karoteny D,G"
+    ],
+    "nutritions": {
+      "per": "100ml",
+      "energy": "162kJ / 38kcal",
+      "fat": {
+        "total": "0g",
+        "saturated": "0g"
+      },
+      "carbohydrates": {
+        "total": "9.4g",
+        "sugar": "9.4g"
+      },
+      "protein": "0g",
+      "sodium": "0g"
+    },
+    "warnings": "Chronić przed światłem. Po otwarciu przechowywać w lodówce nie dłużej niż 48 godz. Wstrząsnąć przed otwarciem."
+  },
+  {
+    "id": 7,
+    "name": "Nutella",
+    "brand": "Nutella",
+    "ean": "8017 7173",
+    "mass": "350g",
+    "portion": "15g",
+    "ingredients": [
+      "cukier",
+      "olej palmowy",
+      "*orzechy laskowe* (13%)",
+      "kakao w proszku o obniżonej zawartości tłuszczu (7.4%)",
+      "*mleko* odtłuszczone w proszku (6.6%)",
+      "*serwatka* w proszku",
+      "emulgator lecytyny (soja)",
+      "wanilla"
+    ],
+    "nutritions": {
+      "per": "100g",
+      "energy": "2278kJ / 546kcal",
+      "fat": {
+        "total": "31.6g",
+        "saturated": "11g"
+      },
+      "carbohydrates": {
+        "total": "57.6g",
+        "sugar": "56.8g"
+      },
+      "protein": "6g",
+      "sodium": "0.114g"
+    },
+    "description": "Krem do smarowania z orzechami laskowymi.",
     "manufacturer_id": 1
+  },
+  {
+    "id": 8,
+    "name": "MultiVita",
+    "brand": "Rama",
+    "mass": "405g",
+    "portion": "10g",
+    "ean": "8 712100 338649",
+    "ingredients": [
+      "woda",
+      "oleje roślinne (słonecznikowy, palmowy, rzepakowy, lniany)",
+      "skrobia modyfikowana",
+      "\\*maślanka\\* w proszku",
+      "emulgatory (mono- i diglicerydy kwasów tłuszczowych, polirycynooleinian poligricerolu, lecytyny),",
+      "sól (0.3%)",
+      "sorbinian potasu (substancja konserwująca)",
+      "kwas cytrynowy",
+      "naturalny aromat",
+      "witaminy A, B1 (tiamina), B2 (ryboflawina), B6, B12, D",
+      "karoteny (barwnik)"
+    ],
+    "nutritions": {
+      "per": "100g",
+      "energy": "1480kJ / 356kcal",
+      "fat": {
+        "total": "39g",
+        "saturated": "11g",
+        "monounsaturated": "13g",
+        "polyunsaturated": "15g"
+      },
+      "carbohydrates": {
+        "total": "1.7g",
+        "sugar": "<0.5g"
+      },
+      "protein": "<0.5g",
+      "sodium": "0.33g",
+      "vitamin_a": "800ug",
+      "vitamin_d": "7.5ug",
+      "vitamin_e": "9.6mg",
+      "vitamin_b1": "1.1mg",
+      "vitamin_b2": "1.4mg",
+      "vitamin_b6": "1.4mg",
+      "vitamin_b12": "2.5ug",
+      "omega_3": "3.2g",
+      "omega_6": "12g"
+    },
+    "description": "Margaryna półtłusta z dodatkiem witamin. Zawartość tłuszczu 39%.",
+    "warnings": "Rama MultiVita zawiera witaminy A, D, E, B1, B2, B6, B13. Zgodnie z prawem do tego typu produktów obowiązkowo dodawane są witaminy A i D. Spożywaj codziennie 20g (2x10g) Ramy MultiVita. Przechowywać w lodówce"
   }
 ]
