@@ -38,9 +38,11 @@ end
 def manufacturers
   files = Dir.glob 'manufacturers/*.yml'
 
-  @manufacturers = files.map do |file|
+  @manufacturers ||= files.map do |file|
     name = "manufacturer_" + File.basename(file, '.yml')
     data = yaml file
+
+    puts name.to_sym
 
     [ name.to_sym, data ]
   end.to_h
@@ -52,6 +54,8 @@ def products
   @products ||= files.map do |file|
     name = "product_" + File.basename(file, '.yml')
     data = yaml file
+
+    puts name
 
     if data.key? :manufacturer
       mkey = data.delete :manufacturer
@@ -104,6 +108,11 @@ def products_data
   end
 end
 
+puts "types"
 File.write 'generated/types.json', json(types_data)
+
+puts "manufacturers"
 File.write 'generated/manufacturers.json', json(manufacturers_data)
+
+puts "products"
 File.write 'generated/products.json', json(products_data)
