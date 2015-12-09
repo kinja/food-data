@@ -1,0 +1,35 @@
+name: Tost przenny
+brand: Big Bite!
+description: Chleb tostowy przenny, krojony, pasteryzowany
+manufacturer: manufacturer_lantmannen
+mass: 800g
+portion: 36g (1 kromka)
+ean: 5 900784 201424
+ingredients:
+  - mąka *przenna* (69%)
+  - woda
+  - drożdże
+  - cukier
+  - sól
+  - olej roślinny (rzepakowy, palmowy)
+  - emulgator (mono- i diglicerydy kwasów tłuszczowych, stearoilomleczan sodu)
+  - regulator kwasowości (dioctan sodu)
+  - substancja konserwująca (propionian wapnia)
+nutritions:
+  per: 100g
+  energy: 1050kJ / 248kcal
+  fat:
+    total: 2g
+    saturated: 0.5g
+  carbohydrates:
+    total: 47.8g
+    sugar: 5.3g
+  protein: 8.5g
+  fiber: 2.4g
+  sodium: 1.4g
+
+warnings:
+  Zawiera gluten.
+  Może zawierać mleko, soję, orzeszki ziemne i nasiona sezamu.
+  Po otwarciu spożyć w ciągu 48 godzin.
+  Przechowywać w miejscu suchym i przewiewnym w temperaturze pokojowej.

@@ -1,0 +1,27 @@
+name: Tuńczyk po meksykańsku
+brand: Salatina
+manufacturer: manufacturer_graal
+ean: 5 903895 633726
+mass: 160g
+ingredients:
+  - mieszanka warzyw (62,5%) - czerwona fasola (33.3%), kukurysza (32.9%), marchew (24%), papryka czerwona (8.6%) - w zmiennych proporcjach
+  - "*tuńczyk* (Katsuwonus pelamis lub Thunnus albacares)"
+  - woda
+  - olej rzepakowy
+  - białko *przeniczne*
+  - sól
+  - ektrakt pieprzu
+nutritions:
+  per: 100g
+  energy: 880kJ / 212kcal
+  fat:
+    total: 15g
+    saturated: 1.2g
+  carbohydrates:
+    total: 9.3g
+    sugar: 3.4g
+  protein: 8.9g
+  sodium: 0.81g
+warnings:
+  Może zawierać *gorczycę*, *mleko*, *jaja*, *seler*, *soję*.
+  Przechowywać w suchym i chłodnym miejscu.

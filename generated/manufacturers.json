@@ -8,39 +8,44 @@
   },
   {
     "id": 2,
+    "name": "GRAAL S.A.",
+    "address": "ul. Zachodnia 22, 84-200 Wejherowo"
+  },
+  {
+    "id": 3,
     "name": "Jeronimo Martins Polska S.A.",
     "address": "ul. Żniwna 5, 62-025 Kostrzyn"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Lubella Sp. z o.o",
     "address": "ul. Wrotkowska 1, 20-469 Lublin",
     "web": "www.lubella.pl"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "McCormick Polska S.A.",
     "address": "Stefanowo, ul. Malinowa 18/20, 05-552 Wólka Kosowska"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "SM MLEKOVITA",
     "address": "ul. Ludowa 122, 18-200 Wysokie Mazowieckie"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "MWS Sp. z o.o. Sp. k.",
     "address": "ul. Strefowa 13, 43-100 Tychy",
     "web": "www.kamis.pl"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Pudliszki Sp. z o.o",
     "address": "Pudliszki, ul. Fabryszna 7, 63-840 Krobia",
     "web": "www.pudliszki.pl"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Unilever Polska Sp. z o.o.",
     "address": "Al. Jerozolimskie 134, 02-305 Warszawa, Polska",
     "phone": "801 109 387",

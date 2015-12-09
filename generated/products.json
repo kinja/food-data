@@ -70,7 +70,7 @@
       "fibre": "0.9g",
       "sodium": "3.1g"
     },
-    "manufacturer_id": 7
+    "manufacturer_id": 8
   },
   {
     "id": 3,
@@ -98,7 +98,7 @@
     },
     "preparing": "Zagotować wodę, 1L na 100g makaronu. Posolić według uznania. Do gotującej się wody wsypać porcję Makaronu Lubella. Gotować od 7 do 10 minut. Od czasu do czasu zamieszać. Ugotowany makaron odcedzić.",
     "warnings": "Zawartość soli wynika wyłącznie z obecności naturalnie występującego sodu. Produkt może zawierać jaja.",
-    "manufacturer_id": 3
+    "manufacturer_id": 4
   },
   {
     "id": 4,
@@ -124,7 +124,7 @@
       "protein": "1g",
       "sodium": "0.2g"
     },
-    "manufacturer_id": 5
+    "manufacturer_id": 6
   },
   {
     "id": 5,
@@ -158,7 +158,7 @@
     },
     "description": "Musztarda o tradycyjnym, umiarkowanie ostrym smaku. Niezastąpiona do dań mięsnych, wędlin, serów i sosów.",
     "warnings": "Zabezpieczyć przed bezpośrednim działaniem promieni słonecznych. Po otwarciu przechowywać w lodowce.",
-    "manufacturer_id": 4
+    "manufacturer_id": 5
   },
   {
     "id": 6,
@@ -238,7 +238,7 @@
       "woda",
       "oleje roślinne (słonecznikowy, palmowy, rzepakowy, lniany)",
       "skrobia modyfikowana",
-      "\\*maślanka\\* w proszku",
+      "*maślanka* w proszku",
       "emulgatory (mono- i diglicerydy kwasów tłuszczowych, polirycynooleinian poligricerolu, lecytyny),",
       "sól (0.3%)",
       "sorbinian potasu (substancja konserwująca)",
@@ -274,5 +274,37 @@
     },
     "description": "Margaryna półtłusta z dodatkiem witamin. Zawartość tłuszczu 39%.",
     "warnings": "Rama MultiVita zawiera witaminy A, D, E, B1, B2, B6, B13. Zgodnie z prawem do tego typu produktów obowiązkowo dodawane są witaminy A i D. Spożywaj codziennie 20g (2x10g) Ramy MultiVita. Przechowywać w lodówce"
+  },
+  {
+    "id": 9,
+    "name": "Tuńczyk po meksykańsku",
+    "brand": "Salatina",
+    "ean": "5 903895 633726",
+    "mass": "160g",
+    "ingredients": [
+      "mieszanka warzyw (62,5%) - czerwona fasola (33.3%), kukurysza (32.9%), marchew (24%), papryka czerwona (8.6%) - w zmiennych proporcjach",
+      "*tuńczyk* (Katsuwonus pelamis lub Thunnus albacares)",
+      "woda",
+      "olej rzepakowy",
+      "białko *przeniczne*",
+      "sól",
+      "ektrakt pieprzu"
+    ],
+    "nutritions": {
+      "per": "100g",
+      "energy": "880kJ / 212kcal",
+      "fat": {
+        "total": "15g",
+        "saturated": "1.2g"
+      },
+      "carbohydrates": {
+        "total": "9.3g",
+        "sugar": "3.4g"
+      },
+      "protein": "8.9g",
+      "sodium": "0.81g"
+    },
+    "warnings": "Może zawierać *gorczycę*, *mleko*, *jaja*, *seler*, *soję*. Przechowywać w suchym i chłodnym miejscu.",
+    "manufacturer_id": 2
   }
 ]
