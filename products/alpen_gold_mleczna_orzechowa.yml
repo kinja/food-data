@@ -1,0 +1,36 @@
+name: Czekolada mleczna orzechowa
+brand: Alpen Gold
+description: Czekolada mleczna z orzechami laskowymi
+distriubtor: manufakturer_mondelez
+mass: 90g
+portion: 18g (3 kostki)
+ean: 7 622210 308955
+ingredients:
+  - cukier
+  - miazga kakaowa
+  - tłuszcz kakaowy
+  - odtłuszczone *mleko* w proszku
+  - serwatka w proszku (z *mleka*)
+  - "*orzechy laskowe* (8%)"
+  - tłuszcze roślinne (palmowy, shea)
+  - tłuszcz *mleczny*
+  - emulgatory (lecytyna *sojowa*, E476, lecytyna słonecznikowa)
+  - aromat
+nutritions:
+  per: 100g
+  energy: 2235kj / 535kcal
+  fat:
+    total: 31g
+    saturated: 16.5g
+  carbohydrates:
+    total: 56g
+    sugar: 55g
+  fiber: 2.8g
+  sodium: 0.4g
+
+warnings:
+  Masa kakaowa w czekoladzie mlecznej minimum 25%.
+  *Oprócz tłuszczu kakaowego zawiera tłuszcze roślinne.*
+  *Może zawierać pszenicę.*
+  Przechowywać w suchym i chłodnym miejscu.
+  Przechowywać w miejscu suchym i przewiewnym w temperaturze pokojowej.
